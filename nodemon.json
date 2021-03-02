@@ -1,0 +1,8 @@
+{
+  "ignore": ["node_modules/**/node_modules", "dist/**/dist"],
+  "verbose": true,
+  "events": {
+    "restart": "cd client && yarn start"
+  },
+  "ext": "ts, json, tsx, js"
+}
